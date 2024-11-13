@@ -8,11 +8,11 @@ This file contains a subset of the styles for the free Bootstrap template 'Grays
   --bs-dark: #212529;
   
   /* MY HEX COLORS */
-  --my-primary-hex: #FF9A44;
-  --my-secondary-hex: #B55E28;
+  --my-primary-hex: #ffffff;
+  --my-secondary-hex: #000000;
   
   /* MY HSL COLORS */
-  --my-primary-hsl: hsl(31deg 100% 63%);
+  --my-primary-hsl: hsl(0, 0%, 100%);
   --my-secondary-hsl: hsl(213deg 33% 43%);
   --my-primary:27.59, 100%; /* the base primary hsl color without lightness */
   --my-secondary:22.98, 63.8%; /* the alt secondary hsl color without lightness */
@@ -110,7 +110,6 @@ body {
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
     /* color: rgba(0, 0, 0, 0.7); */
     color: var(--my-color-secondary-darkest);
-}
 }
 /* CARD CLASSES */
 .card {
