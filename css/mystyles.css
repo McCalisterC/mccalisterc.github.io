@@ -486,14 +486,14 @@ body {
   background: linear-gradient(to bottom, var(--my-color-secondary-darkest) 0%, var(--my-color-secondary-darkest) 50%, var(--my-color-primary) 100%);
 }
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
 }
 
 .projects-section {
-  padding: 5rem 0;
+  padding: 10rem 0;
 }
 .projects-section .featured-text {
-  padding: 2rem;
+  padding: 5rem;
 }
 @media (min-width: 992px) {
   .projects-section .featured-text {
